@@ -23,9 +23,9 @@ Example:
 ---
 
 ## 📸 Application Screenshots
-- Prediction Dashboard → `dashboard.png`  
-- Dataset Insights → `insights.png`  
-- Prediction Result → `result.png`
+- Prediction Dashboard → `/screenshots/dashboard.png`  
+- Dataset Insights → `/screenshots/data insights.png`  
+- Prediction Result → `/screenshots/results.png`
 
 ---
 
@@ -82,7 +82,6 @@ The dataset contains medical attributes related to heart disease.
 - Good performance on medical datasets  
 
 **Workflow:**
-```
 Data Collection
 │
 ▼
@@ -100,11 +99,10 @@ Model Serialization (Joblib)
 ▼
 Streamlit Web App
 
-```
+
 ---
 
 ## 📂 Project Structure
-```
 heart-disease-prediction
 │
 ├── app.py
@@ -112,33 +110,27 @@ heart-disease-prediction
 ├── Log_model.joblib
 ├── image1.png
 ├── heart1.jpeg
-│── dashboard.png
-│── result.png
-│── data_insights.png
+│
+├── screenshots
+│   ├── dashboard.png
+│   ├── result.png
+│   └── data_insights.png
 │
 └── README.md
-```
 
 
 ---
 
 ## ⚙️ Installation
 1️⃣ Clone the Repository  
-```
-git clone https://github.com/yourusername/heart-disease-prediction.git
-```
+git clone https://github.com/yourusername/heart-disease-prediction.git 
 2️⃣ Navigate to Project Folder
-```
 cd heart-disease-prediction
-```
 3️⃣ Install Dependencies
-```
 pip install -r requirements.txt
-```
 ▶️ Run the Application
-```
 streamlit run app.py
-```
+
 
 ## 📊 Example Output
 The model predicts:
