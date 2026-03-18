@@ -23,9 +23,13 @@ Example:
 ---
 
 ## 📸 Application Screenshots
-- Prediction Dashboard → `/screenshots/dashboard.png`  
-- Dataset Insights → `/screenshots/data insights.png`  
-- Prediction Result → `/screenshots/results.png`
+## 📊 Prediction Dashboard
+![Dashboard](screenshots/dashboard.png)  
+## 📈 Dataset Insights
+![Dataset Insights](screenshots/datainsights.png)
+## 🎯 Prediction Result
+![Prediction Result](screenshots/results.png)
+
 
 ---
 
